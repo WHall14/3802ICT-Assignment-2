@@ -1,0 +1,32 @@
+REQ1
+[MemberData(email=Will, password=Pass, LoggedIn=false, Blocked=false, LentBooks=[]), MemberData(email=Phil, password=Pass, LoggedIn=false, Blocked=false, LentBooks=[])]
+[LibrarianData(email=Sean, password=Pass, LoggedIn=false), LibrarianData(email=Bill, password=Pass, LoggedIn=false)]
+
+REQ2
+Member Will is now logged in
+Librarian Sean is now logged in
+
+REQ3
+Member: Will Has successfully borrowed: The Art of War
+
+REQ4
+Book found:
+The Art of War
+Books Completed by Author Found:
+Book: The Art of War
+Author: Sun Tsu
+
+
+REQ5
+This User is Blocked
+Member: Will Has successfully borrowed: The Art of War
+
+REQ6
+Books on Loan to Will:
+The Art of War, UniqueId: 12-12-12-1
+The Art of War, UniqueId: 12-12-12-2
+
+REQ7
+[BookItemData(name=The Art of War, UniqueBookId=12-12-12-1, IsLent=BookLendingData(TheBook=The Art of War, TheMember=Will, UniqueBookId=12-12-12-1)), BookItemData(name=The Art of War, UniqueBookId=12-12-12-2, IsLent=BookLendingData(TheBook=The Art of War, TheMember=Will, UniqueBookId=12-12-12-2)), BookItemData(name=The Art of War, UniqueBookId=12-12-12-3, IsLent=BookLendingData(TheBook=The Art of War, TheMember=, UniqueBookId=12-12-12-3)), BookItemData(name=The Art of War, UniqueBookId=12-12-12-4, IsLent=BookLendingData(TheBook=The Art of War, TheMember=, UniqueBookId=12-12-12-4))]
+
+Process finished with exit code 0
